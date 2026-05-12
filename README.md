@@ -3,9 +3,11 @@
 Projeto desenvolvido para a Sprint 2 da disciplina de Web Develpment.
 
 ## Integrantes
-- Nome 1
-- Nome 2
-- Nome 3
+- Enzo Oldani Camargo - RM571685
+- Giulia Mardegan Russo - RM571468
+- Kauan de Carlo Merida - RM573997
+- Kayque Amaro Martins Souza - RM572031
+- Victoria Bandeira Berumen - RM571183
 
 ## Tema
 Modo Estudante da JOVI.
