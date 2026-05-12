@@ -9,12 +9,14 @@
 <body>
     <section class="hero">
         <header class="header-hero">
-            <h1>NEXTCODE</h1>
+            <h1>NEXTCODE | JOVI</h1>
             <nav class="nav-hero">
                 <ul class="menu-list">
-                    <li><a href=" "class="menu-list-item">Home</a></li>
+                    <li><a href="#" class="menu-list-item">Home</a></li>
                     <li><a href="#modoestudante" class="menu-list-item">Modo Estudante</a></li>
                     <li><a href="#funcionalidades" class="menu-list-item">Funcionalidades</a></li>
+                    <li><a href="#galeria" class="menu-list-item">Galeria</a></li>
+                    <li><a href="#login" class="menu-list-item">Login<a></li>
                 </ul>
             </div>
         </header>
@@ -22,7 +24,7 @@
             <div class="cta">
                 <div class="texto">
                     <h2>Transforme sua câmera em uma ferramenta de estudos</h2>
-                    <p>O Modo Estudante da JOVI utiliza inteligência artificial para facilitar anotações, leitura de textos, organização de conteúdos e compreensão das ferramentas da câmera</p>
+                    <p>O Modo Estudante da JOVI pelo grupo NextCode utiliza inteligência artificial para facilitar anotações, leitura de textos, organização de conteúdos e compreensão das ferramentas da câmera</p>
                     <a href="https://www.figma.com/proto/u3Hg2RyiMkECiZ8t3zCWiI/Sprint-1---Front-end-design?node-id=57-232&p=f&t=3Y77KqCTumBlYHv2-1&scaling=contain&content-scaling=fixed&page-id=20%3A2&starting-point-node-id=35%3A213&classId=864469ff-75e6-4982-b879-4a89fa8d4f64&assignmentId=70467548-3b3f-424e-b2a6-ddc251168acd&submissionId=77ad2c97-4e97-3228-82dc-5f1e6e09eddc" class="btn">Visite o protótipo <i class=""></i></a>
                 </div>
                 <div class="imagem">
@@ -30,12 +32,12 @@
                 </div>
             </div>
     </section>
-    
+
     <section class="hero2" id="modoestudante">
         <div class="titulo">
             <h2>Modo Estudante</h2>
             <p>
-            Uma experiência criada para transformar a câmera do celular em uma ferramenta inteligente para estudos.
+            O modo estudante tem como objetivo transformar a câmera em uma ferramenta inteligente e acessível, auxiliando os estudantes nos estudos com recursos como conversão de imagens em texto, correção ortográfica e geração automática de resumos, aumentando a praticidade e a produtividade no dia a dia.
             </p>
         </div>
         <div class="cards">
@@ -48,16 +50,16 @@
         </div>
         <div class="card">
             <img src="./image/image explicação.jpg" alt="função resumo de texto">
-            <h3>Texto em imagem</h3>
-            <p>Converter fotos da lousa em texto editáveis.</p>
+            <h3>Imagem e Texto</h3>
+            <p>Converter fotos da lousa em texto editáveis.Resume o texto fotografado, destacando as informações mais importantes, facilitando a compreensão e economizando tempo.</p>
         </div>
         <div class="card">
             <img src="./image/image resumo.jpg" alt="foto da interface da câmera no modo de Explicação">
-            <h3>Explicação rápida</h3>
-            <p>Explica funções da câmera de forma simples</p>
+            <h3>Guia Inteligente</h3>
+            <p>Explica funções da câmera de forma simples, rápida e leiga.</p>
         </div>
     </section>
-    
+
     <section class="funcionalidades" id="funcionalidades">
         <div class="titulo-f">
             <h2>Funcionalidades</h2>
@@ -65,11 +67,11 @@
             Recursos inteligentes desenvolvidos para melhorar
             a experiência de estudo através da câmera.
             </p>
-    </div>
+        </div>
 
     <div class="cards2">
         <div class="box">
-            <h3>Captura de texto da lausa</h3>
+            <h3>Captura de texto da lousa</h3>
             <p>
             Transforma fotos da lousa em texto digital.
             </p>
@@ -85,7 +87,7 @@
         <div class="box">
             <h3>Correção ortográfica</h3>
             <p>
-            Corrige erros em textos e anotações.
+            Corrige erros de textos e anotações.
             </p>
         </div>
 
@@ -112,6 +114,26 @@
     </div>
     </section>
 
+    <section class="galeria" id="galeria">
+        <h2>Galeria do projeto</h2>
+        <img id="fotoAtual" src="./image/image resumo.jpg" alt="Imagem do projeto">
+        <div class="botoes-galeria">
+            <button onclick="voltarFoto()">Voltar</button>
+            <button onclick="trocarFoto()">Próxima</button>
+        </div>
+    </section>
 
+    <section class="login" id="login">
+        <h2>Login do estudante</h2>
+        <form id="loginForm">
+            <input type="text" id="nome" placeholder="Digite seu nome">
+            <input type="password" id="senha" placeholder="Digite sua senha">
+        <button type="submit">Entrar</button>
+        </form>
+    <p id="msg"></p>
+
+    </section>
+
+    <script src="./js/script.js"></script>
 </body>
 </html>
