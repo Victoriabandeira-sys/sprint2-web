@@ -19,7 +19,7 @@ Modo Estudante da JOVI.
 - Eventos com JavaScript
 - Interatividade no site
 
-## Tecnologias utilizadas
+## Linguagens utilizadas
 - HTML
 - CSS
 - JavaScript
