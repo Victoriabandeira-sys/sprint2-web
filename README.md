@@ -1,4 +1,4 @@
-# Sprint 2 - Web Development
+# SPRINT 2 - Web Development
 
 Projeto desenvolvido para a Sprint 2 da disciplina de Web Develpment.
 
